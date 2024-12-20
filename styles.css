@@ -446,7 +446,7 @@ footer .icons {
 
 .icons {
   display: flex;
-  justify-content: flex-end; /* Alinea los íconos hacia la derecha */
+  justify-content: flex-end;
   gap: 20px;
 }
 
