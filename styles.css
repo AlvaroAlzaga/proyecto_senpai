@@ -359,3 +359,104 @@ footer .icons {
 .cta-form button{
   width: 40%;
 }
+
+@media (min-width: 1440px) {
+  body {
+    padding: 0 80px;
+  }
+
+  .hero {
+    padding: 70px 40px;
+  }
+
+  .productivity {
+    padding: 70px 40px;
+  }
+
+  .footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+}
+
+@media (max-width: 375px) {
+  header {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .nav-h {
+    margin-top: 10px;
+  }
+
+  .hero {
+    flex-direction: column;
+    text-align: center;
+    padding: 20px;
+  }
+
+  .hero-content {
+    max-width: 100%;
+  }
+
+  .hero-image img {
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .productivity {
+    flex-direction: column;
+    padding: 20px;
+  }
+
+  .productivity .image-content img {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .pf {
+    flex-direction: column;
+    text-align: center;
+    padding: 20px;
+  }
+
+  .pf .cta,
+  .pf .cta-form {
+    max-width: 100%;
+  }
+
+  footer {
+    text-align: center;
+  }
+
+  .footer-nav {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .contact-info {
+    align-items: center;
+  }
+
+  .cta-form button {
+    width: 100%;
+  }
+}
+
+.icons {
+  display: flex;
+  justify-content: flex-end; /* Alinea los íconos hacia la derecha */
+  gap: 20px;
+}
+
+.icons img {
+  width: 32px;
+  height: 32px;
+  transition: transform 0.3s ease;
+}
+
+.icons img:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
